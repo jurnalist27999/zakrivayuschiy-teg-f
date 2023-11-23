@@ -245,7 +245,6 @@
   font-family: var(--font-main);
   font-size: 18px;
   font-weight: var(--font-weight-main);
-  line-height: normal;
   line-height: 21px;
   margin-left: 25px;
   margin-right: 25px;
@@ -459,13 +458,6 @@
   color: var(--color-accent);
   cursor: pointer;
   position: relative;
-}
-
-.text-button-ok {
-   position: relative;
-  color:var(--color-blend-mode); 
-  mix-blend-mode: difference;
-  z-index: 1;
 }
 
 .button-ok:focus-visible {
