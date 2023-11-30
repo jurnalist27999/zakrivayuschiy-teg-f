@@ -16,6 +16,39 @@
                      linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
 }
 
+.theme-light .img--brightness {
+  filter: brightness(50%);
+}
+
+.theme-light .img--opacity {
+  filter: brightness(50%) opacity(0.8);
+}
+
+.theme-light .img--sepia {
+  filter: brightness(50%) sepia(50%);
+}
+
+.theme-light .img--blur {
+  filter: brightness(50%) blur(0.2rem);
+}
+
+.theme-light .img--saturate {
+  filter: brightness(70%) saturate(158%);
+}
+
+.theme-light .img--grayscale {
+  filter: brightness(50%) grayscale(0.8);
+}
+
+.theme-light .img--brightness-filter {
+  filter: brightness(30%);
+}
+
+.theme-light .img--many-filter {
+  filter: brightness(30%) saturate(158%) sepia(80%);
+}
+
+
 :root.theme-dark {
     --background-theme: #000;
     --color-accent: #00cc14;
@@ -29,41 +62,41 @@
                     linear-gradient(to bottom, #007f0c 0, #004306 100%);
 }
 
-.theme-dark .image-decor {
-    filter: brightness(120%);
-  }
+.theme-dark .img--brightness {
+  filter: brightness(120%);
+}
 
-.theme-dark .images-filter {
+.theme-dark .img--opacity {
     filter: brightness(120%) opacity(0.8);
-  }
+}
   
-.theme-dark .images-decoration {
+.theme-dark .img--sepia {
     filter: brightness(120%) sepia(50%);
-  }
+}
   
-.theme-dark .filter-image {
+.theme-dark .img--blur {
     filter: brightness(120%) saturate(58%) blur(0.2rem);
-  }
+}
   
-.theme-dark .images-decor {
+.theme-dark .img--saturate {
     filter: brightness(120%) saturate(58%);
-  }
+}
   
-.theme-dark .decor-image {
+.theme-dark .img--grayscale {
     filter: brightness(120%) grayscale(0.2);
-  }
+}
   
-.theme-dark .images-image-filter {
+.theme-dark .img--brightness-filter {
     filter: brightness(120%);
-  }
+}
   
-.theme-dark .images-image-decor {
+.theme-dark .img--many-filter {
     filter: brightness(120%) saturate(58%) sepia(30%);
-  }
+}
 
 .theme-dark .button__text {
     color: var(--color-blend-mode);
-  }
+}
 
   
 
@@ -80,5 +113,43 @@
         repeating-linear-gradient(to top, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
         linear-gradient(to bottom, #007f0c 0, #004306 100%);
     }
-  } 
+
+    
+ .img--brightness {
+  filter: brightness(120%);
+}
+
+ .img--opacity {
+  filter: brightness(120%) opacity(0.8);
+}
+
+ .img--sepia {
+  filter: brightness(120%) sepia(50%);
+}
+
+ .img--blur {
+  filter: brightness(120%) saturate(58%) blur(0.2rem);
+}
+
+ .img--saturate {
+  filter: brightness(120%) saturate(58%);
+}
+
+ .img--grayscale {
+  filter: brightness(120%) grayscale(0.2);
+}
+
+ .img--brightness-filter {
+  filter: brightness(120%);
+}
+
+ .img--many-filter {
+  filter: brightness(120%) saturate(58%) sepia(30%);
+}
+
+ .button__text {
+  color: var(--color-blend-mode);
+}
+
+} 
 
