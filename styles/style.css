@@ -136,7 +136,7 @@
   overflow: hidden;
 }
 
-.card--section {
+.card:first-child {
   margin-top: 103px;
 }
 
